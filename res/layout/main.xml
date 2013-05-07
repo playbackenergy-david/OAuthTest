@@ -4,16 +4,24 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
+    <Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            />
+    <Button
+            android:id="@+id/btn_meters"
+            android:enabled="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="List meters"
+            />
 <TextView
+    android:id="@+id/txt_response"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:text="Hello World, MyActivity"
+    android:text=""
     />
-    <WebView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-
-            android:id="@+id/webView"/>
-
 </LinearLayout>
 
