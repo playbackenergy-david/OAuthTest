@@ -1,4 +1,4 @@
-package com.example.OAuthTest;
+package com.energimolnet.OAuthTest;
 
 import android.app.Activity;
 import android.content.Intent;
